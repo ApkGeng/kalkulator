@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context=".CalculatorActivity"
+	android:background="#FF534646">
+
+	<TextView
+		android:id="@+id/display"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text=""
+		android:textSize="38sp"
+		android:gravity="end"
+		android:background="#E8E8E8"
+		android:padding="8dp"
+		android:textStyle="bold|normal"/>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+
+		<Button
+			android:id="@+id/button1"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="1"/>
+
+		<Button
+			android:id="@+id/button2"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="2"/>
+
+		<Button
+			android:id="@+id/button3"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="3"/>
+
+		<Button
+			android:id="@+id/buttonPlus"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="+"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+
+		<Button
+			android:id="@+id/button4"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="4"/>
+
+		<Button
+			android:id="@+id/button5"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="5"/>
+
+		<Button
+			android:id="@+id/button6"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="6"/>
+
+		<Button
+			android:id="@+id/buttonMinus"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="-"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+
+		<Button
+			android:id="@+id/button7"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="7"/>
+
+		<Button
+			android:id="@+id/button8"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="8"/>
+
+		<Button
+			android:id="@+id/button9"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="9"/>
+
+		<Button
+			android:id="@+id/buttonMultiply"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="*"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+
+		<Button
+			android:id="@+id/button0"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="0"/>
+
+		<Button
+			android:id="@+id/buttonClear"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="Hapus"
+			android:textStyle="bold|normal"/>
+
+		<Button
+			android:id="@+id/buttonEqual"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="="
+			android:textStyle="bold|normal"
+			android:textSize="20sp"/>
+
+		<Button
+			android:id="@+id/buttonDivide"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="/"/>
+
+	</LinearLayout>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Subscribe YOKOFFICIAL"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:gravity="center"
+		android:layout_gravity="center"
+		android:layout_marginTop="10dp"
+		android:textColor="#FF2DFF00"/>
+
+</LinearLayout>
+
